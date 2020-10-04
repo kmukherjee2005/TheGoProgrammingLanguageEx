@@ -1,11 +1,6 @@
 package ftp
 
-import (
-	"fmt"
-	"log"
-)
-
-func Serve(c Conn) {
+/*func Serve(c Conn) {
 	c.respond("220 Service is ready")
 }
 func (c *Conn) respond(s string) {
@@ -14,4 +9,4 @@ func (c *Conn) respond(s string) {
 	if err != nil {
 		log.Print(err)
 	}
-}
+}*/
